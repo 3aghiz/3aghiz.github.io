@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    }
+    /* navbar */
+    
+    .navbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,);
+    top: 0;
+    margin-top: 10px;
+    }
+     
+     
+    .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+    .navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    }
+     
+    .navbar ul li a{
+    padding: 8px 25px;
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+    }
+     
+    .navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    }
+    
+    .container {
+    position: absolute;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 350px;
+    background: black;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin-top: 100px;
+}
+    
+    .container .kiri {
+    position: relative;
+    background: #4a93cf;
+    padding: 40px;
+    
+    }
+    .kiri .aktivitas {
+        font-size: 25px;
+        margin-top: 2px;
+        text-align: center;
+        color: rgb(224, 222, 222);
+        text-shadow: 0 0 10px rgb(224, 222, 222);
+    }
+    
+    
+    .container .kanan {
+    position: relative;
+    background: rgb(224, 222, 222);
+    padding: 40px;
+    }
+    
+    body {
+    background:rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #003147;
+    }
+     
+    h1 {
+    margin-top: 100px;
+    text-align: center;
+    
+    
+    }
+    
+    .kanan iframe {
+    position: relative;
+    margin-top: 1px;
+     margin-left: 90px;
+    
+    }
+    
+    .card-img {
+        width: 200px;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        position: relative;
+        padding: 5px;
+        margin-left: 30px;
+      }
+      .card-img:hover img {
+        transform: scale(1.05);
+      }
+      
+      .card-img .caption {
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.279);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-family: system-ui;
+        font-weight: bold;
+        color: white;
+        transition: all 600ms ease-in-out;
+      }
+      
+      .card-img:hover .caption {
+        opacity: 1;
+      }
+      
+      img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        transition: all 600ms ease-in-out;
+      }
+      
+      .galery {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }    

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    font-weight: 'poppins', sans-serif;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 0 0 10px white;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #e4255b;
+}
+
+.home {
+    height: 100vh ;
+    background: linear-gradient(-90deg,#2b3640 65%, #4a93cf 35% );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-image {
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background-color: #2b3640;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.home-image img {
+    position: relative;
+}
+
+.home-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+}
+
+.home-content h1 {
+    font-size:  55px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 40px;
+    color:#4a93cf;
+    -webkit-text-stroke: .5px #fff;
+    
+}
+
+.home-content p {
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.home-sci {
+    margin: 25px 0 40px ;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #4a93cf;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition: 500ms;
+}
+
+.home-sci a:hover {
+    background: #4a93cf;
+    color: #fff;   
+    border-color: #4a93cf;
+    box-shadow: 0 0 10px;
+}
+
+.btn {
+    padding: 12px 35px;
+    background: #4a93cf;
+    border-radius: 45px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #4a93cf;
+    transition: .5s;
+    
+}
+
+.btn:hover {
+    box-shadow: none;
+
+}
